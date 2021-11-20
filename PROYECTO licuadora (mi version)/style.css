@@ -1,0 +1,71 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #364552;
+    color: white;
+    padding: 3rem 2rem;
+}
+
+header h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.blender {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    height: 500px;
+    /* background-color: red; */
+    background-image: url("images/licuadoraApagada.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.blender.active {
+     background-image: url("images/licuadoraEncendida.gif");
+}
+
+.blender-button {
+    /* margin: 350px auto 0px; */
+    margin-top: 383px;
+    margin-left: 338px;
+    border-radius: 50%;
+    width: 24px;
+    height: 20px;
+    
+    /* background-color: blue; */ 
+}
+
+
+footer {
+    background-color: #222;
+    padding: 3rem;
+    color: white;
+    margin-top: 667px ;   
+}
+
+footer section{
+    float: right;
+}
+
+footer a {
+    transition: color 0.3s ease;
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: cornflowerblue;
+}
